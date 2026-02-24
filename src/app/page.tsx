@@ -48,7 +48,7 @@ export default function SitePage() {
             {
               videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771684785214-9g6egt6v.mp4",              imageAlt: "Coffee beans and espresso machine"},
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/vertical-shot-man-pouring-milk-into-cappuccino_181624-19406.jpg",              imageAlt: "Close up of latte art"},
+              videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771505618512-apxd95pq.mp4",              imageAlt: "Close up of latte art"},
           ]}
           rating={5}
           ratingText="Loved by Coffee Enthusiasts"
