@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
         <body
-          className={`${outfit.variable} antialiased`}
+          className={`${outfit.variable}`}
         >
           <Tag />
           {children}
