@@ -77,7 +77,7 @@ function ProductPageContent({ params }: ProductPageProps) {
     const themeProviderProps = {
         children: null as any,
         defaultButtonVariant: "shift-hover" as const,
-        defaultTextAnimation: "entrance-slide",
+        defaultTextAnimation: "entrance-slide" as const,
         borderRadius: "rounded",
         contentWidth: "smallMedium",
         sizing: "mediumLarge",
