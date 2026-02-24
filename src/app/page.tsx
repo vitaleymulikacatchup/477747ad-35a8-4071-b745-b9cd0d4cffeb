@@ -46,7 +46,7 @@ export default function SitePage() {
           tag="The Perfect Start"
           mediaItems={[
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg?_wi=1",              imageAlt: "Coffee beans and espresso machine"},
+              videoSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34my1kGeblbsCcwUUCcjBY9WFkg/uploaded-1771684785214-9g6egt6v.mp4",              imageAlt: "Coffee beans and espresso machine"},
             {
               imageSrc: "https://img.b2bpic.net/free-photo/vertical-shot-man-pouring-milk-into-cappuccino_181624-19406.jpg",              imageAlt: "Close up of latte art"},
           ]}
