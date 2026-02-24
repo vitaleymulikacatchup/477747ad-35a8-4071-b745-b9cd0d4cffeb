@@ -1,4 +1,4 @@
-use client";
+"use client";
 
 import { Suspense, use, useCallback } from "react";
 import { useRouter } from "next/navigation";
@@ -80,14 +80,13 @@ function ProductPageContent({ params }: ProductPageProps) {
 
     const navbarProps = {
         navItems: [{ name: "Home", id: "/" }, { name: "Shop", id: "/shop" }],
-        brandName: "InCup",        bottomLeftText: "Experience the best coffee",        bottomRightText: "hello@incup.com",        button: { text: "Cart", onClick: () => setCartOpen(true) }
-    };
+        brandName: "InCup",        bottomLeftText: "Experience the best coffee",        bottomRightText: "hello@incup.com"};
 
     const footerProps = {
-        imageSrc: "https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg?_wi=5",        imageAlt: "Roasted coffee beans in a wooden scoop",        columns: [
-            { title: "Menu", items: [{ label: "Coffee", href: "#menu" }, { label: "Pastries", href: "#menu" }, { label: "Sandwiches", href: "#menu" }] },
-            { title: "About Us", items: [{ label: "Our Story", href: "#about" }, { label: "Team", href: "#" }] },
-            { title: "Support", items: [{ label: "FAQ", href: "#faq" }, { label: "Contact", href: "#contact" }] }
+        imageSrc: "https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg",        imageAlt: "Roasted coffee beans in a wooden scoop",        columns: [
+            { title: "Menu", items: [{ label: "Coffee", href: "/#menu" }, { label: "Pastries", href: "/#menu" }, { label: "Sandwiches", href: "/#menu" }] },
+            { title: "About Us", items: [{ label: "Our Story", href: "/#about" }, { label: "Team", href: "#" }] },
+            { title: "Support", items: [{ label: "FAQ", href: "/#faq" }, { label: "Contact", href: "/#contact" }] }
         ],
         logoText: "InCup",        copyrightText: "© 2024 InCup. All rights reserved."
     };
@@ -96,7 +95,7 @@ function ProductPageContent({ params }: ProductPageProps) {
         return (
             <ThemeProvider {...themeProviderProps}>
                 <ReactLenis root>
-                    <div id="navbar" data-section="navbar">
+                    <div id="nav" data-section="nav">
                         <NavbarStyleFullscreen {...navbarProps} />
                     </div>
                     <div id="loading-state" data-section="loading-state">
@@ -116,7 +115,7 @@ function ProductPageContent({ params }: ProductPageProps) {
         return (
             <ThemeProvider {...themeProviderProps}>
                 <ReactLenis root>
-                    <div id="navbar" data-section="navbar">
+                    <div id="nav" data-section="nav">
                         <NavbarStyleFullscreen {...navbarProps} />
                     </div>
                     <div id="not-found-state" data-section="not-found-state">
@@ -143,7 +142,7 @@ function ProductPageContent({ params }: ProductPageProps) {
     return (
         <ThemeProvider {...themeProviderProps}>
             <ReactLenis root>
-                <div id="navbar" data-section="navbar">
+                <div id="nav" data-section="nav">
                     <NavbarStyleFullscreen {...navbarProps} />
                 </div>
                 <div id="product-detail-card" data-section="product-detail-card">
