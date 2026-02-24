@@ -83,7 +83,7 @@ function ProductPageContent({ params }: ProductPageProps) {
         brandName: "InCup",        bottomLeftText: "Experience the best coffee",        bottomRightText: "hello@incup.com"};
 
     const footerProps = {
-        imageSrc: "https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg",        imageAlt: "Roasted coffee beans in a wooden scoop",        columns: [
+        imageSrc: "https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg?_wi=5",        imageAlt: "Roasted coffee beans in a wooden scoop",        columns: [
             { title: "Menu", items: [{ label: "Coffee", href: "/#menu" }, { label: "Pastries", href: "/#menu" }, { label: "Sandwiches", href: "/#menu" }] },
             { title: "About Us", items: [{ label: "Our Story", href: "/#about" }, { label: "Team", href: "#" }] },
             { title: "Support", items: [{ label: "FAQ", href: "/#faq" }, { label: "Contact", href: "/#contact" }] }
