@@ -47,7 +47,7 @@ export default function SitePage() {
           tag="The Perfect Start"
           mediaItems={[
             {
-              imageSrc: "https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg",              imageAlt: "Coffee beans and espresso machine"},
+              imageSrc: "https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg?_wi=1",              imageAlt: "Coffee beans and espresso machine"},
             {
               imageSrc: "https://img.b2bpic.net/free-photo/vertical-shot-man-pouring-milk-into-cappuccino_181624-19406.jpg",              imageAlt: "Close up of latte art"},
           ]}
@@ -94,17 +94,17 @@ export default function SitePage() {
         <TestimonialCardSix
           testimonials={[
             {
-              id: "1",              name: "Sarah M.",              handle: "@sarah_lovescoffee",              testimonial: "InCup is my favorite spot! The coffee is always perfect, and the atmosphere is so inviting. It's truly a gem.",              imageSrc: "https://img.b2bpic.net/free-photo/beautiful-young-woman-is-using-app-her-smartphone-device-send-text-message-near-business-buildings_158595-6785.jpg",              imageAlt: "Sarah M. avatar"},
+              id: "1",              name: "Sarah M.",              handle: "@sarah_lovescoffee",              testimonial: "InCup is my favorite spot! The coffee is always perfect, and the atmosphere is so inviting. It's truly a gem.",              imageSrc: "https://img.b2bpic.net/free-photo/beautiful-young-woman-is-using-app-her-smartphone-device-send-text-message-near-business-buildings_158595-6785.jpg?_wi=1",              imageAlt: "Sarah M. avatar"},
             {
-              id: "2",              name: "David K.",              handle: "@davidk_dailygrind",              testimonial: "I've tried every coffee shop in town, and InCup stands out. Their lattes are exceptional and the staff are incredibly friendly.",              imageSrc: "https://img.b2bpic.net/free-photo/portrait-young-man-drinking-coffee-smiling-looking-camera-closeup_657883-686.jpg",              imageAlt: "David K. avatar"},
+              id: "2",              name: "David K.",              handle: "@davidk_dailygrind",              testimonial: "I've tried every coffee shop in town, and InCup stands out. Their lattes are exceptional and the staff are incredibly friendly.",              imageSrc: "https://img.b2bpic.net/free-photo/portrait-young-man-drinking-coffee-smiling-looking-camera-closeup_657883-686.jpg?_wi=1",              imageAlt: "David K. avatar"},
             {
               id: "3",              name: "Emily R.",              handle: "@emilyeatsandsips",              testimonial: "Beyond the amazing coffee, their pastries are a must-try. This place has become my daily ritual for good reason.",              imageSrc: "https://img.b2bpic.net/free-photo/young-woman-sitting-indoor-urban-cafe_158595-669.jpg",              imageAlt: "Emily R. avatar"},
             {
               id: "4",              name: "Michael S.",              handle: "@michaels_brew",              testimonial: "Consistently excellent coffee and a cozy environment to work or relax. Highly recommend the cold brew!",              imageSrc: "https://img.b2bpic.net/free-photo/close-up-portrait-happy-businesswoman-white-blouse-smiling-cheerfully-as-sitting-cafe_197531-23018.jpg",              imageAlt: "Michael S. avatar"},
             {
-              id: "5",              name: "Jessica L.",              handle: "@jess_beans",              testimonial: "The best coffee in the city! The baristas remember my order, and it feels like home every time I visit.",              imageSrc: "https://img.b2bpic.net/free-photo/beautiful-young-woman-is-using-app-her-smartphone-device-send-text-message-near-business-buildings_158595-6785.jpg",              imageAlt: "Jessica L. avatar"},
+              id: "5",              name: "Jessica L.",              handle: "@jess_beans",              testimonial: "The best coffee in the city! The baristas remember my order, and it feels like home every time I visit.",              imageSrc: "https://img.b2bpic.net/free-photo/beautiful-young-woman-is-using-app-her-smartphone-device-send-text-message-near-business-buildings_158595-6785.jpg?_wi=2",              imageAlt: "Jessica L. avatar"},
             {
-              id: "6",              name: "Chris T.",              handle: "@chris_cup",              testimonial: "A true coffee connoisseur's paradise. The attention to detail in every cup is evident.",              imageSrc: "https://img.b2bpic.net/free-photo/portrait-young-man-drinking-coffee-smiling-looking-camera-closeup_657883-686.jpg",              imageAlt: "Chris T. avatar"},
+              id: "6",              name: "Chris T.",              handle: "@chris_cup",              testimonial: "A true coffee connoisseur's paradise. The attention to detail in every cup is evident.",              imageSrc: "https://img.b2bpic.net/free-photo/portrait-young-man-drinking-coffee-smiling-looking-camera-closeup_657883-686.jpg?_wi=2",              imageAlt: "Chris T. avatar"},
           ]}
           animationType="slide-up"
           title="What Our Community Says"
@@ -154,7 +154,7 @@ export default function SitePage() {
 
       <div id="footer" data-section="footer">
         <FooterMedia
-          imageSrc="https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg"
+          imageSrc="https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg?_wi=2"
           imageAlt="Roasted coffee beans in a wooden scoop"
           columns={[
             {
