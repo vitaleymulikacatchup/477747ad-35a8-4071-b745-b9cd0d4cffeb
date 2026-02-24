@@ -76,7 +76,7 @@ function ProductPageContent({ params }: ProductPageProps) {
 
     const themeProviderProps = {
         defaultButtonVariant: "shift-hover",        defaultTextAnimation: "entrance-slide",        borderRadius: "rounded",        contentWidth: "smallMedium",        sizing: "mediumLarge",        background: "aurora",        cardStyle: "layered-gradient",        primaryButtonStyle: "inset-glow",        secondaryButtonStyle: "radial-glow",        headingFontWeight: "normal"
-    };
+    } as const;
 
     const navbarProps = {
         navItems: [{ name: "Home", id: "/" }, { name: "Shop", id: "/shop" }],
