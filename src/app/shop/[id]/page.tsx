@@ -75,7 +75,17 @@ function ProductPageContent({ params }: ProductPageProps) {
     }, [cartItems, checkout, getCheckoutItems]);
 
     const themeProviderProps = {
-        defaultButtonVariant: "shift-hover",        defaultTextAnimation: "entrance-slide",        borderRadius: "rounded",        contentWidth: "smallMedium",        sizing: "mediumLarge",        background: "aurora",        cardStyle: "layered-gradient",        primaryButtonStyle: "inset-glow",        secondaryButtonStyle: "radial-glow",        headingFontWeight: "normal"
+        children: null as any,
+        defaultButtonVariant: "shift-hover" as const,
+        defaultTextAnimation: "entrance-slide",
+        borderRadius: "rounded",
+        contentWidth: "smallMedium",
+        sizing: "mediumLarge",
+        background: "aurora",
+        cardStyle: "layered-gradient",
+        primaryButtonStyle: "inset-glow",
+        secondaryButtonStyle: "radial-glow",
+        headingFontWeight: "normal"
     };
 
     const navbarProps = {

@@ -42,7 +42,17 @@ function ShopPageContent() {
     }, [cartItems, checkout, getCheckoutItems]);
 
     const themeProviderProps = {
-        defaultButtonVariant: "shift-hover",        defaultTextAnimation: "entrance-slide",        borderRadius: "rounded",        contentWidth: "smallMedium",        sizing: "mediumLarge",        background: "aurora",        cardStyle: "layered-gradient",        primaryButtonStyle: "inset-glow",        secondaryButtonStyle: "radial-glow",        headingFontWeight: "normal"
+        children: null as any,
+        defaultButtonVariant: "shift-hover" as const,
+        defaultTextAnimation: "entrance-slide" as const,
+        borderRadius: "rounded" as const,
+        contentWidth: "smallMedium" as const,
+        sizing: "mediumLarge" as const,
+        background: "aurora" as const,
+        cardStyle: "layered-gradient" as const,
+        primaryButtonStyle: "inset-glow" as const,
+        secondaryButtonStyle: "radial-glow" as const,
+        headingFontWeight: "normal" as const
     };
 
     const navbarProps = {
@@ -61,7 +71,18 @@ function ShopPageContent() {
 
     if (isLoading) {
         return (
-            <ThemeProvider {...themeProviderProps}>
+            <ThemeProvider 
+                defaultButtonVariant="shift-hover"
+                defaultTextAnimation="entrance-slide"
+                borderRadius="rounded"
+                contentWidth="smallMedium"
+                sizing="mediumLarge"
+                background="aurora"
+                cardStyle="layered-gradient"
+                primaryButtonStyle="inset-glow"
+                secondaryButtonStyle="radial-glow"
+                headingFontWeight="normal"
+            >
                 <ReactLenis root>
                     <div id="navbar" data-section="navbar">
                         <NavbarStyleFullscreen {...navbarProps} />
@@ -95,7 +116,18 @@ function ShopPageContent() {
     }
 
     return (
-        <ThemeProvider {...themeProviderProps}>
+        <ThemeProvider 
+            defaultButtonVariant="shift-hover"
+            defaultTextAnimation="entrance-slide"
+            borderRadius="rounded"
+            contentWidth="smallMedium"
+            sizing="mediumLarge"
+            background="aurora"
+            cardStyle="layered-gradient"
+            primaryButtonStyle="inset-glow"
+            secondaryButtonStyle="radial-glow"
+            headingFontWeight="normal"
+        >
             <ReactLenis root>
                 <div id="navbar" data-section="navbar">
                     <NavbarStyleFullscreen {...navbarProps} />
