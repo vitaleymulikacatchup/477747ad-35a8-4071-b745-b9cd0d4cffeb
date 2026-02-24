@@ -1,4 +1,4 @@
-use client";
+"use client";
 
 import { Suspense, useCallback } from "react";
 import ReactLenis from "lenis/react";
