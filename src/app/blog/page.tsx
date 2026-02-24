@@ -48,7 +48,7 @@ export default function BlogPage() {
                 )}
 
                 <FooterMedia
-                    imageSrc="https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg"
+                    imageSrc="https://img.b2bpic.net/free-photo/crop-hand-holding-portafilter-with-coffee_23-2147830571.jpg?_wi=3"
                     imageAlt="Roasted coffee beans in a wooden scoop"
                     columns={[
                         {
